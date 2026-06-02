@@ -116,7 +116,7 @@ If a request isn't processed further within 3 days, it becomes **Expired**, and 
 
 1. On *Approvers*, select **Add groups** and then select a group as the group of approvers for this policy. More complex configurations that exclude groups aren't supported.
 
-1. On *Exclusions*, optionally select **Add enterprise applications** to exclude specific enterprise applications that use app-auth tokens from MAA enforcement for this policy. Excluded applications can modify protected resources without going through the approval workflow. For more information, see [Exclude enterprise applications from an access policy](#exclude-enterprise-applications-from-an-access-policy).
+1. On *Exclusions*, optionally select **Add enterprise applications** to exclude specific enterprise applications that use app-auth tokens from MAA enforcement for this policy. Excluded applications can modify protected resources without going through the approval workflow. For more information, see [Exclude enterprise applications from an access policy](#exclude-enterprise-applications-from-an-access-policy). **See PR Comment for question relating to this**
 
 1. On *Review + submit for approval*, review the policy summary including the basics, approvers, and any exclusions. Enter a *Business justification*, and then select **Submit for approval**.
 
